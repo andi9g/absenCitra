@@ -4,30 +4,43 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
+    <div class="row">
+        <div class="col-md-5">
+            <img src="{{ url('gambar/logo.jpeg', []) }}" alt="">
+        </div>
+        <div class="col-md-7">
             <div class="card">
                 <div class="card-header">
-                    <h2>Selamat Datang</h2>
+                    <h3>
+                        VISI DAN MISI
+                    </h3>
                 </div>
-
                 <div class="card-body">
+                    <h4>VISI</h4>
                     <p>
-                        Sistem Informasi Pengolahan absensi ini diimplementasikan terhadap tiga pengguna, dimana penggunanya yaitu admin, guru dan ketua kelas.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quaerat ex sed saepe ad sunt et molestiae dolorum quam nihil culpa blanditiis optio officia ullam sapiente, dolore praesentium natus quisquam.
                     </p>
+                    <br>
+                    <h4>MISI</h4>
+                    <ul>
+                        <li>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non, perferendis quos impedit natus sapiente itaque ea odit harum eveniet cum dolor, debitis a corporis hic assumenda molestias veritatis quis.
+                        </li>
 
-                    <p>
-                        Ketua kelas dapat melakukan absensi sesuai dengan ruang lingkupnya, dan hanya dapat melakukan satu kali perubahan ket absensi.
-                    </p>
-                    <p>
-                        Guru dapat melakukan pemilihan data absensi siswa di kelas dan melakukan perubahan data absensi siswa
-                    </p>
-                    <p>
-                        Admin dapat melakukan pencetakan data absensi serta mengolah data siswa dan guru
-                    </p>
+                        <li>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non, perferendis quos impedit natus sapiente itaque ea odit harum eveniet cum dolor, debitis a corporis hic assumenda molestias veritatis quis.
+                        </li>
 
+                        <li>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non, perferendis quos impedit natus sapiente itaque ea odit harum eveniet cum dolor, debitis a corporis hic assumenda molestias veritatis quis.
+                        </li>
 
+                        <li>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non, perferendis quos impedit natus sapiente itaque ea odit harum eveniet cum dolor, debitis a corporis hic assumenda molestias veritatis quis.
+                        </li>
+                    </ul>
                 </div>
+
             </div>
         </div>
     </div>
